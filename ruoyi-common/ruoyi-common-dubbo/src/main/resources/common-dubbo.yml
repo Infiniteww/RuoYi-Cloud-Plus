@@ -22,8 +22,8 @@ dubbo:
   metadata-report:
     address: redis://${spring.data.redis.host}:${spring.data.redis.port}
     group: DUBBO_GROUP
-    username: dubbo
-    password: ${spring.data.redis.password}
+#     username: dubbo
+#     password: ${spring.data.redis.password}
     # 集群开关
     cluster: false
     parameters:
